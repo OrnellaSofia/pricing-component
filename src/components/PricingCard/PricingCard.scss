@@ -1,0 +1,12 @@
+@import '../../variables/variables.scss';
+
+.card-container{
+    background-color: $background-color;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px;
+};
+
+.card-title{
+    color: $title-color;
+}

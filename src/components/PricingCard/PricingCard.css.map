@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,CAAA;EACX,gBAAgB,ECHD,OAAO;EDItB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,WAAW,CAAA;EACP,KAAK,ECTK,OAAO;CDUpB",
+    "sources": [
+        "PricingCard.scss",
+        "../../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "PricingCard.css"
+}
