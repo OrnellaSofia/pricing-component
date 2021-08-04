@@ -10,7 +10,9 @@
 }
 
 .description-container li {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
   list-style-type: none;
-  display: block;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=Descriptions.css.map */

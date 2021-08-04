@@ -3,7 +3,7 @@ import './LearnMoreButton.css';
 
 export const LearnMoreButton = () => {
     return(
-        <button class="button-container">
+        <button className="button-container">
             <h4>Learn More</h4>
         </button>
     )

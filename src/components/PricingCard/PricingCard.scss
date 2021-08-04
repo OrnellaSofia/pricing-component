@@ -5,7 +5,7 @@
     border-radius: 15px;
     box-sizing: border-box;
     display: grid;
-    grid-template-rows: 15% 25% 40% 20%;
+    grid-template-rows: 15% 20% 45% 20%;
     height: 300px;
     padding: 5px;
     width: 250px;
@@ -17,9 +17,11 @@
     font-size: 35px;
     font-family: $main-font;
     font-weight: 700;
+    overflow: hidden;
 }
 
 .card-price{
     color: $price-color;
     font-size: 35px;
+    margin: 5px 0px 0px 0px;
 }

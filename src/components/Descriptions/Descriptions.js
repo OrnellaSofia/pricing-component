@@ -3,7 +3,7 @@ import './Descriptions.css';
 
 export const Descriptions = (props) => {
     return(
-        <div class="description-container">
+        <div className="description-container">
             <li>Description 1</li>
             <li>Description 2</li>
             <li>Description 3</li>

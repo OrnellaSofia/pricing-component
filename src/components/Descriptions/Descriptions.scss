@@ -5,7 +5,9 @@
     flex-direction: column;
     padding: 5px;
     li{
+        font-family: $main-font;
+        font-size: 18px;
         list-style-type: none;
-        display: block;
+        margin-top: 10px;
     }
 }
