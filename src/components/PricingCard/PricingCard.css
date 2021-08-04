@@ -1,11 +1,27 @@
 .card-container {
-  background-color: #FFDFD3;
+  background-color: #F9F9F9;
   border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 15% 25% 40% 20%;
+      grid-template-rows: 15% 25% 40% 20%;
   height: 300px;
+  padding: 5px;
   width: 250px;
 }
 
 .card-title {
   color: #763857;
+  margin: 0;
+  font-size: 35px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.card-price {
+  color: #181818;
+  font-size: 35px;
 }
 /*# sourceMappingURL=PricingCard.css.map */

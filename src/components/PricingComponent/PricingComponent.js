@@ -6,8 +6,9 @@ export const PricingComponent = (props) => {
 
     return(
         <div class="component-container">
-            <PricingCard title="Free Plan" />
-            <PricingCard title="Pro Plan" />
+            {/* acá iria un map */}
+            <PricingCard title="Free Plan" price={'0'}/>
+            <PricingCard title="Pro Plan" price={'14.99'}/>
         </div>
     )
 };

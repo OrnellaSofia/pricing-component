@@ -3,10 +3,23 @@
 .card-container{
     background-color: $background-color;
     border-radius: 15px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 25% 40% 20%;
     height: 300px;
+    padding: 5px;
     width: 250px;
 };
 
 .card-title{
     color: $title-color;
+    margin: 0;
+    font-size: 35px;
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.card-price{
+    color: $price-color;
+    font-size: 35px;
 }
