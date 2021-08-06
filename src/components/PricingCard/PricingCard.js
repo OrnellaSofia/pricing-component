@@ -9,7 +9,7 @@ export const PricingCard = (props) => {
         <div className="card-container">
             <h2 className="card-title">{props.title}</h2>
             <h3 className="card-price">{'$' + props.price}</h3>
-            <Descriptions />
+            <Descriptions features={props.features}/>
             <LearnMoreButton />
         </div>
     )

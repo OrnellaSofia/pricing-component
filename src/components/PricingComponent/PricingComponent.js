@@ -7,10 +7,11 @@ export const PricingComponent = (props) => {
         <div className="component-container">
             {props.plans.map(plan => {
                 return(
-                <PricingCard 
-                    title={plan.title} 
-                    price={plan.price}
-                />
+                    <PricingCard 
+                        title={plan.title} 
+                        price={plan.price}
+                        features={plan.features}
+                    />
                 )
             })}
         </div>

@@ -4,9 +4,11 @@ import './Descriptions.css';
 export const Descriptions = (props) => {
     return(
         <div className="description-container">
-            <li>Description 1</li>
-            <li>Description 2</li>
-            <li>Description 3</li>
+            {props.features.map(feature => {
+                return(
+                    <li>{feature}</li>
+                )
+            })}
         </div>
     )
 };

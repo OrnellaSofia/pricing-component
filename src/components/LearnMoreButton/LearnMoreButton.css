@@ -1,10 +1,13 @@
 .button-container {
-  background-color: #F9F9F9;
+  background-color: #CDF0EA;
+  cursor: pointer;
   color: inherit;
   border: none;
   padding: 3px 10px;
   font: inherit;
-  cursor: pointer;
+  margin: auto;
+  height: 50px;
+  width: 90%;
 }
 
 .button-container h4 {

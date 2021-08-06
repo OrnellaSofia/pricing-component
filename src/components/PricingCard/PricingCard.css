@@ -5,15 +5,15 @@
           box-sizing: border-box;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 15% 20% 45% 20%;
-      grid-template-rows: 15% 20% 45% 20%;
+  -ms-grid-rows: 15% 20% 40% 25%;
+      grid-template-rows: 15% 20% 40% 25%;
   height: 300px;
   padding: 5px;
   width: 250px;
 }
 
 .card-title {
-  color: #763857;
+  color: #5F939A;
   margin: 0;
   font-size: 35px;
   font-family: "Rubik", sans-serif;
