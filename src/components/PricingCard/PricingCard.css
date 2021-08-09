@@ -26,4 +26,8 @@
   font-size: 35px;
   margin: 5px 0px 0px 0px;
 }
+
+.card-price span {
+  font-size: 12px;
+}
 /*# sourceMappingURL=PricingCard.css.map */

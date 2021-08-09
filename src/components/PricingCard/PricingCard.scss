@@ -24,4 +24,7 @@
     color: $price-color;
     font-size: 35px;
     margin: 5px 0px 0px 0px;
+    & span {
+        font-size: 12px;
+    }
 }

@@ -1,5 +1,6 @@
 import './App.css';
 import PricingComponent from './components/PricingComponent/PricingComponent';
+import TogglePrice from './components/TogglePrice/TogglePrice';
 
 function App() {
   const plans = [{
@@ -20,6 +21,7 @@ function App() {
   ]
   return (
     <div className="App">
+      <TogglePrice />
       <PricingComponent plans={plans}/>
     </div>
   );
