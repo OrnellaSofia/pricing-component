@@ -21,7 +21,6 @@ function App() {
   ]
   return (
     <div className="App">
-      <TogglePrice />
       <PricingComponent plans={plans}/>
     </div>
   );
